@@ -1,0 +1,46 @@
+.bouton {
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+}
+
+.bouton_choix_notation {
+    margin: 15vh auto;
+    width: 20vw;
+    height: 7vh;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #00FE7E;
+}
+
+.tableau {
+    border-spacing: 0px;
+    margin: 10vh auto;
+}
+
+.case {
+    padding: 0px;
+    border: 1px solid black;
+    width: 20vw;
+    height: 8vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    width: 30%;
+    height: 40%;
+    border-radius: 5px;
+    text-align: center;
+}
+.reset {
+    text-align: center;
+    padding-top: 5vh;
+}
+.bouton_reset {
+    width: 10vw;
+    height: 5vh;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #01D758;
+}   

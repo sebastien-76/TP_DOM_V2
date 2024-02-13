@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tp_dom.css">
+    <title>TP DOM version 2</title>
+</head>
+<body>
+    <!-- bouton de bascule de la notation -->
+    <div class="bouton">
+        <button id="bouton_choix_notation" class="bouton_choix_notation">
+            <!-- texte initial du bouton -->
+            <div id="bouton_initial" class="bouton_initial">
+               Choisir la notation
+            </div>
+            <div id="choix_notation" class="choix_notation" hidden>
+                <!-- bouton -->
+                <div id="note" class="note" hidden>
+                    Notation par note
+                </div>
+                <div id="couleur" class="couleur">
+                    Notation par couleur
+                </div>
+            </div>
+        </button>
+    </div>
+    <!-- tableau avec les nom des élèves et notes  -->
+    <table class="tableau">
+        <tr>
+            <td class="case">Nom de l'élève</td>
+            <td class="case">Devoir</td>
+        </tr>
+        <tr>
+            <td class="case" id="eleve1">Elève 1</td>
+            <td class="case">
+                <input id="input" class="input" name="note" type="text" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td class="case" id="eleve2">Elève 2</td>
+            <td class="case">
+                <input id="input" class="input" name="note2" type="text" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td class="case" id="eleve3">Elève 3</td>
+            <td class="case">
+                <input id="input" class="input" name="note" type="text" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td class="case" id="eleve4">Elève 4</td>
+            <td class="case">
+                <input id="input" class="input" name="note" type="text" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td class="case" id="eleve5">Elève 5</td>
+            <td class="case">
+                <input id="input" class="input" name="note" type="text" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td class="case" id="eleve6">Elève 6</td>
+            <td class="case">
+                <input id="input" class="input" name="note" type="text" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td class="case" id="eleve7">Elève 7</td>
+            <td class="case">
+                <input id="input" class="input" name="note" type="text" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td class="case" id="eleve8">Elève 8</td>
+            <td class="case">
+                <input id="input" class="input" name="note" type="text" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td class="case" id="eleve9">Elève 9</td>
+            <td class="case">
+                <input id="input" class="input" name="note" type="text" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td class="case" id="eleve10">Elève 10</td>
+            <td class="case">
+                <input id="input" class="input" name="note" type="text" hidden>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="reset">
+                <button id="bouton_reset" class="bouton_reset">Reset</button>
+            </td>
+        </tr>
+    </table>
+    <script src="tp_dom.js"></script>
+</body>
+</html>
